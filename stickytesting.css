@@ -18,7 +18,7 @@ body{
 
     display:grid;
     justify-items: center;
-    grid-template-columns: 1fr, 1fr, 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: repeat(10, 20%);
     
 }
@@ -30,6 +30,6 @@ body{
     grid-row-end: 3;
     text-align: center;
 
-    background: crimson;
+    background-color: crimson;
     position: sticky;
 }
