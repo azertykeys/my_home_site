@@ -21,7 +21,8 @@ body{
 
     display:grid;
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     
 }
 
@@ -30,6 +31,8 @@ body{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3; */
+    height: auto;
     text-align: center;
+    margin: 0px;
     background-color: crimson;
 }
