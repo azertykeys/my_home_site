@@ -11,6 +11,8 @@ body {
     font-family: 'Playfair Display', serif;
     color: rgb(66, 0, 41);
     line-height: 1.6;
+    width: 100%;
+    height: 100%;
 }
 
 ul {
@@ -76,6 +78,24 @@ img {
     justify-content: space-between;
 }
 
+.blogroll-container {
+    width: 100%;
+}
+
+.blogroll {
+    max-width: 1100px;
+    background-color: rgb(255, 250, 250);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.blogroll h {
+    margin: 0;
+}
+
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -89,26 +109,25 @@ img {
     height: 100%;
 }
 
-
-
 img {
     width: 100%;
     height: auto;
 }
 
 .socials-container{
-    /* margin: 100px 100px 100px 100px; */
-    /* padding: 10px; */
-    align-self: center;
+    margin-top: 40px;
     text-align: center;
 }
 .socials-container h1{
     height: 100px;
-    align-content: center;
+    
 }
 
 .socials{
     max-width: 1100px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 .socials ul{
@@ -140,7 +159,7 @@ img {
     left: 0;
     bottom: 2px;
     width: 100%;
-    height: 1px;
+    height: 2px;
     background: currentColor;
 
     transform: scaleX(0);
