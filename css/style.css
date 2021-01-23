@@ -79,7 +79,7 @@ img {
     justify-content: space-between;
 }
 
-.blogroll-container {
+.body-container {
     width: 100%;
 }
 
@@ -131,6 +131,7 @@ img {
     margin-left: auto;
 
 }
+
 .socials ul{
     display: flex;
     align-items: center;
@@ -146,6 +147,9 @@ img {
     border-style: solid;
 }
 
+.socials img{
+    width: 70px;
+}
 .socials a{
     padding: 10px;
     border:  rgb(66, 0, 41);
@@ -195,6 +199,11 @@ img {
         padding: 5px;
         background-color: rgb(88, 1, 55);
         margin-bottom: 20px;
+        
+    }
+
+    .socials img{
+        width: 70px;
     }
 
 
